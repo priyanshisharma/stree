@@ -7,6 +7,12 @@
   
 <p>Breast cancer is the most common invasive cancer in women and the second leading cause of cancer death in women after lung cancer. Understanding it's risk and affect to a women's life, we aim to provide a platfrom for you and your doctors to understand the condition of your breasts. We primarily provide the tool of Breast Cancer Analyser, that accepts Histopathological Image of the breasts along with the prediction type to give the results. There are also guidelines on the importance of Breast Exam and how it can be performed. We are also working towards the feature to connect with the doctor over a video conference, for the patient to connect with the doctor and understand the patient and diagnosis better.</p>
 
+## Features
+* Breast Cancer Detection tool
+* Dedicated Dashboard for Patient and Doctor
+* Booking Lab/Appointment
+* Video Conferencing
+
 
 ## Instructions to use Video Conferencing Functionality:
 
@@ -18,6 +24,25 @@ git clone https://github.com/priyanshisharma/stree.git
 - Go to the directory where Xampp is installed. For eg. C:\xampp\htdocs
 - Copy the project folder and paste it in the address mentioned above.
 - Launch any browser window and search localhost/stree.
+
+## Technology Stack
+
+### Web Technology
+
+- Frontend
+  - HTML
+  - CSS
+  - JavaScript
+  - React JS
+  
+- Backend
+  - PHP (Used for Video-call Implementation)
+  - Firebase
+
+- Tools
+  - Xampp
+  - Git
+  - Github
 
 ## Breast Cancer Prediction Tool
 
@@ -39,3 +64,13 @@ We  use the 'Breast Histopathology Images' dataset available at https://www.kagg
 References
 * https://www.researchgate.net/publication/263052166_Automatic_detection_of_invasive_ductal_carcinoma_in_whole_slide_images_with_Convolutional_Neural_Networks
 * https://academic.oup.com/gigascience/article/7/6/giy065/5026175
+
+
+## Our Team
+
+* Priyanshi Sharma
+* Anjali Patle
+* Sakshi Bhandarkar
+
+### More power to women!
+
