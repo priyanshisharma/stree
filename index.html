@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Breast Cancer Analyzer</title>
+        <meta name="description" content="Helping doctors work better with Breast Cancer">
+        <meta name="author" content="Team CodeDivas">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+        <!-- Additional CSS Files -->
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css">
+    </head>
+    
+    <body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="#" class="logo">Stree</a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#welcome" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#about">About</a></li>
+                            <li class="scroll-to-section"><a href="#future">Future Plan</a></li>
+                            <li class="scroll-to-section"><a href="#frequently-question">Breast Exam</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+                        </ul>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+
+    <!-- ***** Welcome Area Start ***** -->
+    <div class="welcome-area" id="welcome">
+        <!-- ***** Header Text Start ***** -->
+        <div class="header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <h1>Stree helps you and doctors understand<strong> YOU</strong></h1>
+                        <p>We provide a set of tools that helps you and your doctor understand the condition of your breasts better.</p>
+                        <a href="#about" class="main-button-slider">Find Out More</a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                        <img src="assets/images/slider-icon.png" class="rounded img-fluid d-block mx-auto" alt="Breast Cancer Ribbon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Header Text End ***** -->
+    </div>
+    <!-- ***** Welcome Area End ***** -->
+
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+                <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
+                    <div class="left-heading">
+                        <h5>Tools and Technology</h5>
+                    </div>
+                    <div class="left-text">
+                        <p>
+                            We currently provide a tool powered by artifical intelligence which analyses hispathological image i.e. 
+                            images of glass tissue slides under a microscope, here tissue samples from lymp nodes in order to 
+                            detect breast cancer. We will be analysing tissues for:
+                            <br><br>
+                            <strong>Invasive Ductal Carcinoma</strong>
+                            This is the most common subtype of all breast cancers. Almost 80% of diagnosed breast cancers are of this subtype.
+                            <br/>
+                            <strong>Metastatic Cancer</strong>
+                            A metastatic cancer or metastatic tumor is one that has spread from the site where it started into different area/s of the body.
+                        </p>
+                        <a href="#about2" class="main-button">Try it yourself</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hr"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+    <!--Analyser start-->
+    <section class="section" id="about2">
+        <div class="container">
+            <div class="row">
+            <div class="left-text col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix">
+                    <div class="left-heading">
+                        <h5>Breast Cancer Analyzer</h5>
+                    </div>
+                    <p>for Histopathology Image Patches, To use the tool:</p>
+                    <ul>
+                        <li>
+                            <img src="assets/images/icon.png" alt="">
+                            <div class="text">
+                                <h6>Upload Histopathological Image</h6>
+                                <p>Click on the 'Choose Files' button and select a single image of 200x200 for the algorithm. Use jpeg, jpg or png format.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/images/icon.png" alt="">
+                            <div class="text">
+                                <h6>Select Prediction Type</h6>
+                                <p>One of these shall be selected for you by default, you may choose between <strong>Metastatic Cancer</strong> and 
+                                    <strong>Invasive Ductal Carcinoma</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/images/icon.png" alt="">
+                            <div class="text">
+                                <h6>Check Results</h6>
+                                <p>Your results should load automatically, just in case it doesn't click on Predict. </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="w3-center">
+                        <img id="selected-image" class="w3-round adjust-image" width="200" src="assets/normal.png" alt=""> 
+                    </div> 
+                    <div class="w3-center">
+                        <div class="progress-bar">Ai is Loading...</div>
+                    </div>
+                    <div class="dont-break-out w3-center add-padding w3-border add-margin side-margin w3-round w3-pale-blue">
+                        <h5 class='new-font'>Results</h5>
+                        <ol class='w3-left-align' id='prediction-list'></ol>
+                    </div>
+                    <div class="add-padding w3-border add-margin side-margin w3-round w3-padding w3-text-teal">
+                        <p>What would you like to detect?</p>
+                        <input id='met_cancer_input' class="w3-margin-right w3-margin-bottom" type="radio" name="model_type" value="metastatic_cancer" checked>Metastatic Cancer<br>
+                        <input id='breast_cancer_input' class="w3-margin-right w3-margin-bottom" type="radio" name="model_type" value="breast_cancer">Invasive Ductal Carcinoma<br>
+                    </div>
+                    <p class="w3-text-teal">jpeg or png</p>
+                    <div class="hide ">
+                        <button id='predict-button'>Predict</button>
+                    </div>
+                    <div class="hide">
+                        <input id="image-selector" type="file" multiple>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+        <!-- Load jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!-- Load TensorFlow.js -->
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"> </script>
+        
+        
+        <!-- Load the Javascript code -->
+        <script src="jscript/met_cancer_classes.js"></script>
+        <script src="jscript/breast_cancer_classes.js"></script>
+        <script src="jscript/app_startup_code.js"></script>
+        <script src="jscript/met_cancer_analyzer.js"></script>
+        <script src="jscript/breast_cancer_analyzer.js"></script>
+    </div>
+
+    <!-- ***** Features Small Start ***** -->
+    <section class="section" id="future">
+        <div class="container">
+            <div class="row" >
+                <div class="owl-carousel owl-theme">
+                    <div class="item service-item">
+                        <div class="icon">
+                            <i><img src="assets/images/icon.png" width="60"  height="60" alt="S"></i>
+                        </div>
+                        <h5 class="service-title">Patient</h5>
+                        <p>Create an interface for patients, in order to receive  prescriptions from doctor & lab reports which 
+                            they can also try to interpret with our easy to use tools.</p>
+                        <!--<a href="#" class="main-button">Read More</a>-->
+                    </div>
+                    <div class="item service-item">
+                        <div class="icon">
+                            <i><img src="assets/images/icon.png" alt=""></i>
+                        </div>
+                        <h5 class="service-title">Doctors</h5>
+                        <p>Create an interface for doctors in order to receive lab reports and make interpretation with our tools while also giving
+                             prescriptions to each patient. </p>
+                        <!--<a href="#" class="main-button">Discover More</a>-->
+                    </div>
+                    <div class="item service-item">
+                        <div class="icon">
+                            <i><img src="assets/images/icon.png" alt=""></i>
+                        </div>
+                        <h5 class="service-title">Labs</h5>
+                        <p>A platform to dispatch reports to both doctors and patients simultaneously. They can also provide status of report in the laboratory at this platform.</p>
+                        <!--<a href="#" class="main-button">More Detail</a>-->
+                    </div>
+                    <div class="item service-item">
+                        <div class="icon">
+                            <i><img src="assets/images/icon.png" alt=""></i>
+                        </div>
+                        <h5 class="service-title">Tools</h5>
+                        <p>We intend to keep creating and adding more accurate and helpful tools in order to make better and easier predictions, 
+                            enhancing medical diagnosis and quality of health.</p>
+                        <!--<a href="#" class="main-button">Read More</a>-->
+                    </div>
+                    <div class="item service-item">
+                        <div class="icon">
+                            <i><img src="assets/images/icon.png" alt=""></i>
+                        </div>
+                        <h5 class="service-title">Interaction Portal</h5>
+                        <p>Create a video calling platform for doctor patient interaction, along with a platform to send necessary prescriptions and exhange doubts in a written/image format.</p>
+                        <!--<a href="#" class="main-button">Discover</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Small End ***** -->
+
+
+    <!-- ***** Frequently Question Start ***** -->
+    <section class="section" id="frequently-question">
+        <div class="container">
+            <!-- ***** Section Title Start ***** -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Breast Exam</h2>
+                    </div>
+                </div>
+                <div class="offset-lg-3 col-lg-6">
+                    <div class="section-heading">
+                        <p>Whether you are a user of STREE or not, do give yourself a breast exam atleast every month!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Section Title End ***** -->
+
+            <div class="row">
+                <div class="left-text col-lg-6 col-md-6 col-sm-12">
+                    <h5>Follow the given steps.</h5>
+                    <div class="accordion-text">
+                        <p>The number of women diagnosed with Breast Cancer has been on a rise in the last few years. And the thought of finding 
+                            a lump on your breast can be a scary one. But, not checking for one and hoping it doesn't exist is not the way to 
+                            protect yourself from Breast Cancer.
+                            <p>
+                                If you notice something in your breasts contact a doctor immediately. Once our idea is successfully implemented,
+                                we shall be instrumental in this crucial assistance.
+                            </p> <!--<span>Email: <a href="#">email@company.com</a><br></span>
+                        <a href="#contact-us" class="main-button">Contact Us</a>-->
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="accordions is-first-expanded">
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Step 1: Appearance</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>
+                                        Stand in front of the mirror and check your breasts thoroughly. Look for any skin discolouration, skin dimpling, 
+                                        scaliness or puckering. Clasp your hands behind your head and look carefully for change in shape of your breasts. 
+                                        Squeeze your nipples and check for discharge.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Step 2: Get Comfortable and Check </span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>Lie down on your back to perform the next set of exams since it spreads the tissue evenly on the chest. With your 
+                                        left arm over your head and a pillow or towel under your left shoulder, put your left hand behind your head. Use 
+                                        the finger pads of three middle fingers to begin touching your left breast gently but firmly.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Step 3: Check Breasts Tissue</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>You can follow any of theses methods:  
+                                        <br/>
+                                        <strong>Lines </strong>- Follow an up-and-down vertical strip pattern from your collarbone to just below your bra line, until you reach the nipple.
+                                        <br/>
+                                        <strong>Wedges</strong>- Starting at the outer edge, move your fingers toward the nipple and back to the edge.
+                                        <br/>
+                                        <strong>Circles</strong>- Move your fingers in circles starting outwards to inwards until you cover the entire breast. <br><br>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Step 4: Examination with Pressure</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>
+                                        Follow the previous step using three levels of pressure to examine your breast:
+                                        <br/>
+                                        <strong>Light pressure</strong>: To examine the tissue closest to the skin
+                                        <br/>
+                                        <strong>Medium pressure</strong>: To feel a little deeper
+                                        <br/>
+                                        <strong>Firm pressure:</strong> To feel deeper tissue closer to the chest wall
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Step-5: Final Check</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>Rest your arms on a firm surface and use the same method of your choice to examine the area between 
+                                        the breastand the underarm, and the underarm itself. All of this is breast tissue too. Or, repeat 
+                                        these steps in the shower so your fingers can glide easily on your breasts. 
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Further Steps</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>Congratulations on successfully conducting your breast exam! If you feel anything suspicious, 
+                                        contact your doctor immediately! Have a nice day!</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Frequently Question End ***** -->
+
+
+    <!-- ***** Contact Us Start ***** -->
+    <section class="section" id="contact-us">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- ***** Contact Map Start ***** -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div id="map">
+                      <!-- How to change your own map point
+                           1. Go to Google Maps
+                           2. Click on your location point
+                           3. Click "Share" and choose "Embed map" tab
+                           4. Copy only URL and paste it within the src="" field below
+                    -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.5971422500443!2d81.62080681480596!3d21.24781788588006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28ddeb740fb24b%3A0xaf67af03953d0ba3!2sNIT%20g.e.%20Road!5e0!3m2!1sen!2sin!4v1609243221758!5m2!1sen!2sin" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- ***** Contact Map End ***** -->
+
+                <!-- ***** Contact Form Start ***** -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="contact-form">
+                        <form id="contact" action="" method="post">
+                          <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Full Name" required="" class="contact-field">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="email" type="text" id="email" placeholder="E-mail" required="" class="contact-field">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" id="message" placeholder="Your Message" required="" class="contact-field"></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="main-button">Send Query</button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- ***** Contact Form End ***** -->
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us End ***** -->
+
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12">
+                    <p class="copyright">Made by Team CodeDivas</p>
+                </div>
+        </div>
+    </footer>
+    
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
