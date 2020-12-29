@@ -18,3 +18,24 @@ git clone https://github.com/priyanshisharma/stree.git
 - Go to the directory where Xampp is installed. For eg. C:\xampp\htdocs
 - Copy the project folder and paste it in the address mentioned above.
 - Launch any browser window and search localhost/stree.
+
+## Breast Cancer Prediction Tool
+
+In order to detect cancer, a pathologist examines the slide of tissue under a microscope. S/he visually ensures that there's no cancer and ultimately find malignant areas. We currently provide a tool powered by artifical intelligence which analyses hispathological image i.e. images of glass tissue slides under a microscope, here tissue samples from lymph nodes in order to detect breast cancer. We will be analysing tissues for:
+
+* **Invasive Ductal Carcinoma** - This is the most common subtype of all breast cancers. Almost 80% of diagnosed breast cancers are of this subtype.
+* **Metastatic Cancer** - A metastatic cancer or metastatic tumor is one that has spread from the site where it started into different area/s of the body.
+
+We  use the 'Breast Histopathology Images' dataset available at https://www.kaggle.com/c/histopathologic-cancer-detection.
+
+* **IDC_model** 
+    * Accuracy: 0.88
+    * F1 Score: 0.88
+
+* **Metastatic_model** 
+    * Accuracy: 0.94
+    * F1 Score: 0.94
+
+References
+* https://www.researchgate.net/publication/263052166_Automatic_detection_of_invasive_ductal_carcinoma_in_whole_slide_images_with_Convolutional_Neural_Networks
+* https://academic.oup.com/gigascience/article/7/6/giy065/5026175
