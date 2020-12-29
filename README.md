@@ -1,6 +1,6 @@
 # Stree
 
-<p>Stree is a initiavtive to raise awareness about breast cancer among women, easing the process of diagnosis of breast cancer by the doctors. Official submission for Hack Nagpur 2020 Hackathon.</p>
+<p>Stree is an initiavtive to raise awareness about breast cancer among women, easing the process of diagnosis of breast cancer by the doctors. Official submission for Hack Nagpur 2020 Hackathon.</p>
 <p align="center">
     <img src="./assets/images/Stree_logo.png" alt="Logo" width="300">
   </a>
