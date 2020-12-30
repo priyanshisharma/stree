@@ -8,7 +8,7 @@
 <p>Breast cancer is the most common invasive cancer in women and the second leading cause of cancer death in women after lung cancer. Understanding it's risk and affect to a women's life, we aim to provide a platfrom for you and your doctors to understand the condition of your breasts. We primarily provide the tool of Breast Cancer Analyser, that accepts Histopathological Image of the breasts along with the prediction type to give the results. There are also guidelines on the importance of Breast Exam and how it can be performed. We are also working towards the feature to connect with the doctor over a video conference, for the patient to connect with the doctor and understand the patient and diagnosis better.</p>
 
 ## Features
-* Breast Cancer Detection tool
+* Breast Cancer Detection tool : Detects 2 types of cancers using 2 AI Models
 * Dedicated Dashboard for Patient and Doctor
 * Booking Lab/Appointment
 * Video Conferencing
