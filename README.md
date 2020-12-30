@@ -66,6 +66,16 @@ References
 * https://www.researchgate.net/publication/263052166_Automatic_detection_of_invasive_ductal_carcinoma_in_whole_slide_images_with_Convolutional_Neural_Networks
 * https://academic.oup.com/gigascience/article/7/6/giy065/5026175
 
+## Screenshots
+
+<img src="screenshot/1.png" width="300">
+<img src="screenshot/2.png" width="300">
+<img src="screenshot/3.png" width="300">
+<img src="screenshot/4.png" width="300">
+<img src="screenshot/5.png" width="300">
+<img src="screenshot/6.png" width="300">
+<img src="screenshot/7.png" width="300">
+
 
 ## Our Team
 
