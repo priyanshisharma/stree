@@ -13,7 +13,7 @@
 * Dedicated Dashboard for Patient and Doctor
 * Booking Lab/Appointment
 * Video Conferencing
-* Previuous Prescription & Medical History
+* Previous Prescription & Medical History
 
 
 ## Instructions to use Video Conferencing Functionality:
