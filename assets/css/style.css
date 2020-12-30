@@ -255,6 +255,7 @@ button.main-button {
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
+  background:#ff58c9;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -297,19 +298,19 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e !important;
+  color: #0e0e0e !important;
 }
 
 .background-header .main-nav .nav > li:hover > a {
-  color: #f55858 !important;
+  color: #f558c9 !important;
 }
 
 .background-header .main-nav .nav > li > ul > li:hover > a {
-  color: #f55858 !important;
+  color: #f558c9 !important;
 }
 
 .background-header .nav li a.active {
-  color: #f55858 !important;
+  color: #f558c9 !important;
 }
 
 .header-area {
@@ -370,7 +371,6 @@ header
   display: block;
   font-weight: 500;
   font-size: 13px;
-  color: #fff;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
