@@ -1,6 +1,7 @@
 import React from 'react'
 import firebase from 'firebase'
 import TextField from '@material-ui/core/TextField';
+import NavigationBar from '../Patient/NavigationBar'
 import MenuItem from '@material-ui/core/MenuItem';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
@@ -53,7 +54,10 @@ export default function PatientProfile() {
     }
     return (
         loading?<CircularProgress color="secondary" style={{margin:' 20% 49%'}}/>:
-        <div style={{background:'rgba(0,0,0,0.07)',padding:'5% 10%',minHeight:'80vh'}}>
+        <>
+        
+      <NavigationBar/>
+        <div style={{background:'rgba(0,0,0,0.07)',padding:'5%',minHeight:'80vh'}}>
              <div className="dashboard-main-card">
                 <div className="dashboard-card-head">
                     Patient History
@@ -105,8 +109,9 @@ export default function PatientProfile() {
                     select
                     value={category}
                     onChange={(e)=>setCategory(e.target.value)}
+                    className="pres-input"
                     variant="outlined"
-                    style={{width:'25%',margin:'30px'}}
+                    style={{margin:'30px'}}
                 >
                         <MenuItem value="1">Invasive Ductal Carcinoma </MenuItem>
                         <MenuItem value="2">Metastatic Tissue </MenuItem>
@@ -116,21 +121,24 @@ export default function PatientProfile() {
                         label="Normal"
                         value={normal}
                         onChange={(e)=>setNormal(e.target.value)}
+                        className="pres-input"
                         variant="outlined"
-                        style={{width:'25%',margin:'30px'}}
+                        style={{margin:'30px'}}
                     />
                     <TextField
                         id="outlined-multiline-static"
                         label={category==1?"Invasive Ductal Carcinoma":"Metastatic Tissue"}
                         value={cancer}
                         onChange={(e)=>setCancer(e.target.value)}
+                        className="pres-input"
                         variant="outlined"
-                        style={{width:'25%',margin:'30px'}}
+                        style={{margin:'30px'}}
                     />
 
 
                  <button id="pres-button" onClick={submitPres}>Add Prescription </button>
             </div>
         </div>
+        </>
     )
 }

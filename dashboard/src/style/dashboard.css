@@ -134,3 +134,49 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff58c9', end
     margin-top:20px;
     cursor:pointer;
 }
+
+#lab-site{
+    height:90vh;
+}
+.pres-input{
+    width:25%;
+    margin:60px;
+}
+
+@media(max-width:600px){
+    #sub-card{
+        display:block;
+    }
+    .dashboard-card{
+        width:80%;
+        margin:5% 10%;
+    }
+    .dashboard-card-head{
+        height:70px;
+        font-size:24px;
+    }
+    #doctor-details{
+        display:block;
+        text-align:center;
+        padding:15px 30px;
+    }
+    #doctor-details div{
+        margin:10px;
+    }
+    .prescription{
+        width:80%;
+        margin-bottom:30px;
+        font-size:14px;
+    }
+    .patient-list{
+        width:70%;
+        margin:5% 15%;
+        font-size:18px;
+    }
+    .patient-list img{
+        width:24%;
+    }
+    .pres-input{
+        width:80%;
+    }
+}

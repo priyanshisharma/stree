@@ -28,7 +28,9 @@ export default function PatientDashboard() {
     },[])
     return (
         loading?<CircularProgress color="secondary" style={{margin:' 20% 49%'}}/>:
-        <div style={{background:'rgba(0,0,0,0.07)'}}>
+        <>
+        <NavigationBar/>
+        <div style={{background:'rgba(0,0,0,0.07)',marginTop:'0px',marginBottom:'0px',paddingTop:'30px',paddingBottom:'30px'}}>
             <div id="sub-card">
             <div className="dashboard-card">
                 <div className="dashboard-card-head">
@@ -86,5 +88,6 @@ export default function PatientDashboard() {
                 
             </div>
         </div>
+        </>
     )
 }
