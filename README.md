@@ -15,6 +15,9 @@
 * Video Conferencing
 * Previous Prescription & Medical History
 
+### Sample User Credentials
+* Username - sampleuser@gmail.com
+* Password - 123456
 
 ## Instructions to use Video Conferencing Functionality:
 
@@ -82,7 +85,7 @@ References
 <img src="screenshot/9.jpeg" width="300">
 
 
-## Our Team
+## Team HackDivas
 
 * Priyanshi Sharma
 * Anjali Patle
