@@ -5,9 +5,10 @@
     <img src="./assets/images/Stree_logo.png" alt="Logo" width="300">
   </a>
   
-<p>Breast cancer is the most common invasive cancer in women and the second leading cause of cancer death in women after lung cancer. Understanding it's risk and affect to a women's life, we aim to provide a platfrom for you and your doctors to understand the condition of your breasts. We primarily provide the tool of Breast Cancer Analyser, that accepts Histopathological Image of the breasts along with the prediction type to give the results. There are also guidelines on the importance of Breast Exam and how it can be performed. We are also working towards the feature to connect with the doctor over a video conference, for the patient to connect with the doctor and understand the patient and diagnosis better.</p>
+<p>Breast cancer is the most common invasive cancer in women and the second leading cause of cancer death in women after lung cancer. Understanding it's risk and affect to a women's life, we aim to provide a platfrom for you and your doctors to understand the condition of your breasts. We primarily provide the tool of Breast Cancer Analyser, that accepts Histopathological Image of the breasts along with the prediction type to give the results. There are also guidelines on the importance of Breast Exam and how it can be performed. We are also working towards the feature to connect with the doctor over a video conference, for the patient to connect with the doctor and understand the patient and diagnosis better. We also connect the patient and doctors with dedicated dashboards, while keeping track of their diagnosis i.e. storing and giving prescriptions, lab reports etc. on our platform, such that important information cannot be missed out.</p>
 
 ## Features
+* Responsive UI for Accessibility
 * User Auhentication
 * Breast Cancer Detection tool : Detects 2 types of cancers using 2 AI Models
 * Dedicated Dashboard for Patient and Doctor
